@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/index.css">
+    <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/bootstrap.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo/download.png" alt="">
+        </div>
+    </header>
+    <main>
+        <form action="">
+            <div class="display fixed-top ">
+                <input type="text" name="display" id="display">
+                <input type="button" value="+" onclick="display.value+='+'">
+                <input type="button" value="Tottal price" onclick="display.value=eval(display.value)"class="equal btn btn-success">
+                <input type="button" class="btn btn-danger" value="remove card =X" onclick="display.value=display.value.toString().slice(0,-1)">  
+                
+                
+                <a href="page2.html" class="btn btn-info"> Next Page2</a>
+                <a href="home.html" class="btn btn-info">HOME</a>
+            </div> <br>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="Hoodies/download (2).jpg" alt="">
+                        </div>
+                        <div class="card-footer">
+                            <span>Price 2,999 <br> <br></span>
+                            <input type="button" value="ADDCART" class="btn btn-primary"onclick="display.value+='2999'">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="Hoodies/download (4).jpg" alt="">
+                        </div>
+                        <div class="card-footer">
+                            <span>Price 3,900 <br> <br></span>
+                            <input type=" button" class="btn btn-primary" value="ADDCART" onclick="display.value+='3000'">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="Hoodies/download (4).jpg" alt="">
+                        </div>
+                        <div class="card-footer">
+                            <span> price 1,500 <br> <br></span>
+                            <input type="button"class="btn btn-primary"  value="ADDCART" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+    
+
+    <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.js.map"></script>
+    <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

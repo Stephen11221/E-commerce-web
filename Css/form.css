@@ -1,0 +1,31 @@
+
+header{
+    background-color: yellow;
+    height: 10vh;
+    width: 100%;
+}
+header img{
+    height: 10.1vh;
+    width: 250px ;
+    border-radius: 50px;
+}
+form{
+    align-items: center;
+    border-color: blue;
+    width: 40%;
+    border-style: dashed;
+    margin-left: 470px;
+    margin-right: 250px;
+    margin-top: 80px;
+   
+}
+button{
+    background-color: green ;
+    width: 260px;
+    height: 8.9vh;
+    border-radius: 70%;
+}
+.advert img{
+        height: 18.8vh;
+        background: linear-gradient(44deg, to left, orange, pink, yellow, green, red, blue);
+}

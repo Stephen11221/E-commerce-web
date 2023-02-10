@@ -1,0 +1,24 @@
+
+header{
+    height: 21vh;
+    width: 100%;
+    background-color: yellow;
+}
+header .logo img  {
+    width: 120px;
+    height: 120px;
+    border-radius: 50px;
+}
+main form .display{
+
+    margin-left: 500px;
+
+}
+main form .card img{
+    height: 20.2vh;
+    width: 200px;
+}
+main form .card:hover{
+    color:  orangered;
+    cursor: progress;
+}
